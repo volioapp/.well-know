@@ -6,7 +6,8 @@
         "components": [
           { "/": "/flight/*", "comment": "Shared flight detail link" },
           { "/": "/profile/*", "comment": "Shared profile link" },
-          { "/": "/spotter/*", "comment": "Shared Spotter photo detail link" }
+          { "/": "/spotter/*", "comment": "Shared Spotter photo detail link" },
+          { "/": "/post/*", "comment": "Shared Post detail link" }
         ]
       }
     ]
