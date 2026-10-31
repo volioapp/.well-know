@@ -1,2 +1,10 @@
-include:
-  - ".well-known"
+include: [".well-known"]
+
+keep_files: [".well-known"]
+
+defaults:
+  - scope:
+      path: ".well-known/apple-app-site-association"
+    values:
+      image: false
+    permalink: /.well-known/apple-app-site-association
